@@ -70,10 +70,10 @@ do{
         case "fanta":
             alert(comprarFanta(parseInt(prompt("queres comprar una Fanta? (costo $22) Ingresa un numero"))))
             break
+        default:
+            alert("Ingresa el nombre de una bebida")
+            break
     }
     volverAcomprar = confirm("desea volver a intentar?")
 }while(volverAcomprar == true)
 alert("Hasta luego :)")
-
-
-
